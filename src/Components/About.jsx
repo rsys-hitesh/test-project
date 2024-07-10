@@ -10,7 +10,7 @@ const About = () => {
   const {showBoundary} = useErrorBoundary();
 
   const increment = useCallback(() => {
-    console.log(add);
+    console.log("add",add);
     setAdd(previs => previs+1)
   },[count]);
 
